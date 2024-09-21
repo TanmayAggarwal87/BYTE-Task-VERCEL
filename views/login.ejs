@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/52ee0b2ef0.js" crossorigin="anonymous"></script>
+    
+    <style>
+        *{
+            background-color: black;
+            margin:0;
+            padding: 0;
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .link{
+            color: #43A047;
+            display: flex;
+            height: 8vh;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            text-decoration: none;
+            transition: all 1s;
+            font-size: 25px;
+        }
+        p{
+            color: white;
+            font-family: monospace;
+        }
+
+        .text .yt{
+            background-color: white;
+            font-family: sans-serif;
+            height: 60px;
+            width: 300px;
+            margin-bottom: 8px;
+            font-size: 20px;
+            border-radius: 18px;
+            border: none;
+            transition: all 1.2s;
+            cursor: pointer;
+            margin-right: 10px;
+
+            &:hover {
+                background-color: black;
+                color: #ffffff;
+                
+                border-color: white;
+                border-width: 1px;
+                border-style: solid;
+
+            }
+
+            
+        }
+
+        .text .yt a{
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+            transition: all 1.2s;
+        }
+
+        .text .yt:hover a{
+            color: white;
+        }
+        .text .github{
+            background-color: #333;
+            font-family: sans-serif;
+            height: 60px;
+            width: 300px;
+            color: white;
+            margin-bottom: 8px;
+            font-size: 20px;
+            border-radius: 18px;
+            border: none;
+            transition: all 1.2s;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #121111;
+                border-color: white;
+                border-width: 1px;
+                border-style: solid;
+
+
+                
+                
+
+            }
+        }
+        .text .github a{
+            color: white;
+            text-decoration: none;
+            background-color: transparent;
+            transition: all 1.2s;
+        }
+        
+
+       
+        .follow-btn{
+            display: flex;
+            justify-content: center;
+            height: 10vh;
+            padding-top: 100px;
+            width: auto;
+            
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            bottom: -40px;
+        }
+        .follow-btn h3 ,h5{
+            color: white;
+            font-size: 15px;
+            font-family: monospace;
+
+        }
+        
+        
+        .btn{
+            display: flex;
+            flex-direction: row;
+            padding-top: 20px;
+            margin-top: 15px;
+            
+            
+
+        &  a{
+            margin-right: 10px;
+            margin: 8px;
+            border: none;
+            cursor: pointer;
+            border: none;
+        }
+        }
+    </style>
+
+    <%- include('header') %>
+    <div>
+        <div class="text">
+            <div class="login">
+                
+                    <a href="/auth/youtube">
+                        <button class="yt">
+                            Login with Youtube
+                            <i class="fa-brands fa-youtube fa-xl" style="color: #e10505;background-color: transparent;"></i>
+                        </button>
+                    </a>
+                
+                
+                    <a href="/auth/github">
+                        <button class="github">
+                            Login with GitHub
+                        
+                            <i class="fa-brands fa-github fa-xl"style="background-color:transparent"></i>
+                        </button>
+                    </a>
+                </button>
+            </div>
+
+            
+            <p>Note: You will be only directed to the page only if you have followed B.Y.T.E on YouTube or followed them on GitHub</p>
+        </div>
+
+
+        <div class="follow-btn">
+            <h3>Haven't followed B.Y.T.E on YouTube or GitHub?</h3>
+            <h5>Here!! take a moment to follow us </h5>
+            <div class="btn">
+                <a href="https://www.youtube.com/@BYTE-mait" target="_blank">
+                    
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000; background-color: transparent;font-size: 50px;"></i>
+
+                    
+                </a>
+                <a href="https://github.com/bytemait" target="_blank">
+                    <i class="fa-brands fa-github fa-2xl"style="color:white;font-size:50px"></i></a>
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
