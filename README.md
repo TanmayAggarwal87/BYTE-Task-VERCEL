@@ -66,6 +66,7 @@ To run this project locally, follow these steps:
     npm install
     
 3.Set up your environment variables for OAuth (create a .env file):
+```.env
     YT_clientID=your_youtube_client_id
     YT_clientSecret=your_youtube_client_secret
     YT_callbackURL= your callback url for youtube
