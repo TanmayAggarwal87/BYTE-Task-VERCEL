@@ -8,10 +8,16 @@ The goal of this project was to enhance my backend development skills by impleme
 
 
 Here are some Images:
+### Home Page
+
 ![image](https://github.com/user-attachments/assets/6b8d2971-a7e3-4b10-95e9-504b763178b1)
+
 ### for failed Authentication (Not following target channel on Youtube or following them on Github)
+
 ![image](https://github.com/user-attachments/assets/26d7c3b0-c9b5-4c5d-97a8-3f91dba03944)
+
 ### for Successfull Authentication (following target channel on Youtube or following them on Github)
+
 ![image](https://github.com/user-attachments/assets/0c064262-fa08-45f2-a031-a2605dd337e1)
 
 
