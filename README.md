@@ -73,7 +73,7 @@ To run this project locally, follow these steps:
     GIT_clientId=your_github_client_id
     GIT_clientSecret=your_github_client_secret
     GIT_callbackURL= your callback url for github
-    
+```
 4. Start the server:
        ```terminal
 
@@ -83,4 +83,5 @@ To run this project locally, follow these steps:
    
 ## Deployment
 - The project has been deployed on Vercel. You can access it https://tanmay-byte-task.vercel.app/
+
 
